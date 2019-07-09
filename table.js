@@ -21,7 +21,7 @@ let table=function(optionsStr,title){
 var opts= JSON.parse(optionsStr || '{}');
 
 let list=[];
-list.push("####"+title)
+list.push("#### "+title)
 list.push('|Name|Type|Default|Description|');
 list.push('|-|----|-------|-|');
 for(var key in opts){
