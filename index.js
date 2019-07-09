@@ -45,7 +45,7 @@ getFiles(path.resolve(_dir),function(file,content){
     }
     
 },'js')
-fs.writeFileSync(path.join(dirname,'readme.MD') ,readme.code('<p>xxx</p>'));
+fs.writeFileSync(path.join(dirname,'README.MD') ,readme.code('<p>xxx</p>'));
 
 //开始读取文件
 
